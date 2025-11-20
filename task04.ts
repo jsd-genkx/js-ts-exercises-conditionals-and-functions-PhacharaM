@@ -6,8 +6,11 @@
 
 // TODO BONUS: Rewrite with if
 
-const num = 25;
-if (num % 3 === 0 && num %5 === 0) {
+let num = 0;
+// for zero setting
+if(num === 0){
+  console.log("Zero is not acceptable.")
+} else if (num % 3 === 0 && num %5 === 0) {
     console.log("FizzBuzz");
 } else if (num %3 === 0 ) {
     console.log("Fizz");
